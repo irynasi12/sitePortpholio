@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@media screen and (max-width: 500px) {
+  body {
+    overflow-x: hidden; }
+    body .nav-active {
+      transform: translateX(0%) !important; } }
+
+.main_block {
+  background-image: url(../image/Photo.png);
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  @media screen and (max-width: 762px) {
+    .main_block {
+      display: flex;
+      flex-direction: column;
+      background-size: 100%;
+      background-repeat: no-repeat; } }
+  @media screen and (max-width: 580px) {
+    .main_block {
+      display: flex;
+      flex-direction: column;
+      background-size: 100%;
+      background-repeat: no-repeat; } }
+  .main_block .nav_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0px 0 200px; }
+    @media screen and (max-width: 800px) {
+      .main_block .nav_block {
+        flex-direction: row-reverse;
+        padding: 0 30px; } }
+    @media screen and (max-width: 580px) {
+      .main_block .nav_block {
+        padding: 0 30px; } }
+    @media screen and (max-width: 500px) {
+      .main_block .nav_block {
+        flex-direction: row;
+        padding: 0 25px; } }
+    .main_block .nav_block .logo {
+      flex-direction: column-reverse;
+      display: flex;
+      height: 60px;
+      background-color: #fa5c65;
+      border-radius: 0 0 5px 5px; }
+      @media screen and (max-width: 762px) {
+        .main_block .nav_block .logo {
+          height: 40px;
+          font-size: 15px; } }
+      @media screen and (max-width: 580px) {
+        .main_block .nav_block .logo {
+          height: 30px;
+          font-size: 10px; } }
+      .main_block .nav_block .logo a {
+        padding: 0px 15px 5px;
+        text-decoration: none;
+        color: #fff; }
+    .main_block .nav_block .nav_menu {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      padding: 0 0 0 200px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400; }
+      @media screen and (max-width: 1024px) {
+        .main_block .nav_block .nav_menu {
+          padding: 0 0 0 70px;
+          font-size: 15px; } }
+      @media screen and (max-width: 905px) {
+        .main_block .nav_block .nav_menu {
+          padding: 0 0 0 30px;
+          font-size: 13px; } }
+      @media screen and (max-width: 732px) {
+        .main_block .nav_block .nav_menu {
+          font-size: 12px; } }
+      @media screen and (max-width: 500px) {
+        .main_block .nav_block .nav_menu {
+          position: absolute;
+          width: 20%;
+          top: 25px;
+          right: 0px;
+          background: #333333;
+          transition: transform 0.5s ease-in;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          transform: translateX(101%); } }
+      .main_block .nav_block .nav_menu li {
+        margin: 0 15px 0; }
+        @media screen and (max-width: 732px) {
+          .main_block .nav_block .nav_menu li {
+            margin: 0 10px 0; } }
+        @media screen and (max-width: 500px) {
+          .main_block .nav_block .nav_menu li {
+            margin: 5px 10px 5px; } }
+        .main_block .nav_block .nav_menu li a {
+          text-decoration: none;
+          color: #000; }
+          .main_block .nav_block .nav_menu li a:hover {
+            color: #fa5c65; }
+          @media screen and (max-width: 500px) {
+            .main_block .nav_block .nav_menu li a {
+              border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+              color: #fff; } }
+        .main_block .nav_block .nav_menu li i {
+          cursor: pointer;
+          color: #fa5c65; }
+          .main_block .nav_block .nav_menu li i:hover {
+            color: #000000; }
+    @media screen and (max-width: 500px) {
+      .main_block .nav_block .burger {
+        margin: 4px 0; } }
+    .main_block .nav_block .burger div {
+      display: none;
+      width: 25px;
+      height: 3px;
+      background-color: #314a5b;
+      margin: 5px; }
+    .main_block .nav_block .burger:hover {
+      cursor: pointer; }
+    @media screen and (max-width: 500px) {
+      .main_block .nav_block .burger div {
+        display: block;
+        width: 15px;
+        margin: 3px; } }
+  .main_block .slogan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .main_block .slogan .slogan1 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 270px 0; }
+      @media screen and (max-width: 1124px) {
+        .main_block .slogan .slogan1 {
+          margin: 200px 0; } }
+      @media screen and (max-width: 965px) {
+        .main_block .slogan .slogan1 {
+          margin: 150px 0; } }
+      @media screen and (max-width: 762px) {
+        .main_block .slogan .slogan1 {
+          margin: 100px 0; } }
+      @media screen and (max-width: 580px) {
+        .main_block .slogan .slogan1 {
+          margin: 80px 0;
+          padding-left: 30px; } }
+      @media screen and (max-width: 500px) {
+        .main_block .slogan .slogan1 {
+          padding: 0 0 0 15px;
+          margin: 40px 0; } }
+      .main_block .slogan .slogan1 h1 {
+        padding: 15px 0;
+        width: 420px;
+        font-size: 35px;
+        color: #314a5b;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase; }
+        @media screen and (max-width: 965px) {
+          .main_block .slogan .slogan1 h1 {
+            font-size: 27px; } }
+        @media screen and (max-width: 762px) {
+          .main_block .slogan .slogan1 h1 {
+            font-size: 25px; } }
+        @media screen and (max-width: 580px) {
+          .main_block .slogan .slogan1 h1 {
+            font-size: 17px;
+            width: 70%;
+            padding: 10px 0; } }
+        @media screen and (max-width: 500px) {
+          .main_block .slogan .slogan1 h1 {
+            width: 55%;
+            font-size: 14px;
+            padding: 0; } }
+      .main_block .slogan .slogan1 p {
+        padding: 15px 0;
+        font-family: "Open Sans", sans-serif; }
+        @media screen and (max-width: 580px) {
+          .main_block .slogan .slogan1 p {
+            font-size: 12px;
+            padding: 10px 0;
+            width: 150px; } }
+      .main_block .slogan .slogan1 a {
+        padding: 15px 30px;
+        border-radius: 5px;
+        font-size: 11px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        color: #fff;
+        background-color: #fa5c65; }
+        @media screen and (max-width: 580px) {
+          .main_block .slogan .slogan1 a {
+            font-size: 8px;
+            padding: 10px 20px; } }
+
+.info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .info .descript1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 80px 150px; }
+    @media screen and (max-width: 1024px) {
+      .info .descript1 {
+        padding: 50px 130px; } }
+    @media screen and (max-width: 965px) {
+      .info .descript1 {
+        padding: 40px 0 0; } }
+    @media screen and (max-width: 648px) {
+      .info .descript1 {
+        flex-direction: column;
+        padding: 30px 0 0; } }
+    .info .descript1 .redpoint {
+      color: #fa5c65; }
+    .info .descript1 div {
+      display: flex;
+      flex-direction: column;
+      padding: 0 30px; }
+      @media screen and (max-width: 648px) {
+        .info .descript1 div {
+          margin-top: 10px; } }
+      .info .descript1 div h2 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        line-height: 23px;
+        color: #465065;
+        font-size: 25px; }
+        @media screen and (max-width: 648px) {
+          .info .descript1 div h2 {
+            font-size: 17px; } }
+      .info .descript1 div p {
+        color: #9aa0ab;
+        margin: 15px 0;
+        line-height: 20px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px; }
+        @media screen and (max-width: 648px) {
+          .info .descript1 div p {
+            margin: 0; } }
+      .info .descript1 div a {
+        text-decoration: none;
+        color: #fa5c65; }
+
+.info2 .descript2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 0 0 180px; }
+  @media screen and (max-width: 965px) {
+    .info2 .descript2 {
+      margin: 0;
+      padding-left: 25px; } }
+  @media screen and (max-width: 648px) {
+    .info2 .descript2 {
+      flex-direction: column; } }
+  .info2 .descript2 .redpoint {
+    color: #fa5c65; }
+  @media screen and (max-width: 765px) {
+    .info2 .descript2 .mcbook {
+      width: 300px; } }
+  @media screen and (max-width: 648px) {
+    .info2 .descript2 .mcbook {
+      margin: 0 0 0 55px; } }
+  .info2 .descript2 div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 230px 0 30px; }
+    @media screen and (max-width: 965px) {
+      .info2 .descript2 div {
+        margin: 0 140px 0 0; } }
+    @media screen and (max-width: 765px) {
+      .info2 .descript2 div {
+        margin: 0 20px 0 0; } }
+    @media screen and (max-width: 648px) {
+      .info2 .descript2 div {
+        margin: 0 30px 10px;
+        text-align: center; } }
+    .info2 .descript2 div h2 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 35px;
+      color: #465065; }
+      @media screen and (max-width: 765px) {
+        .info2 .descript2 div h2 {
+          font-size: 30px; } }
+    .info2 .descript2 div span {
+      color: #314a5b;
+      margin: 0 0 15px; }
+      @media screen and (max-width: 765px) {
+        .info2 .descript2 div span {
+          margin: 0 0 10px; } }
+    .info2 .descript2 div p {
+      margin: 10px 0;
+      color: #a5b0b7;
+      line-height: 20px; }
+      @media screen and (max-width: 765px) {
+        .info2 .descript2 div p {
+          line-height: 18px; } }
+    .info2 .descript2 div a {
+      text-decoration: none;
+      color: #fa5c65; }
+
+.ourteam .allInfo {
+  margin: 20px 170px; }
+  @media screen and (max-width: 1124px) {
+    .ourteam .allInfo {
+      margin: 20px 140px; } }
+  @media screen and (max-width: 965px) {
+    .ourteam .allInfo {
+      margin: 20px; } }
+  .ourteam .allInfo .text {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px; }
+    .ourteam .allInfo .text h3 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      color: #314a5b;
+      font-size: 25px; }
+    .ourteam .allInfo .text p {
+      font-family: "Open Sans", sans-serif;
+      color: #a6acb5;
+      font-size: 13px;
+      padding: 5px 0 0; }
+  .ourteam .allInfo .informationabout {
+    display: flex;
+    padding: 0 30px;
+    flex-direction: row; }
+    @media screen and (max-width: 1124px) {
+      .ourteam .allInfo .informationabout {
+        padding: 0; } }
+    @media screen and (max-width: 965px) {
+      .ourteam .allInfo .informationabout {
+        padding: 0 30px; } }
+    @media screen and (max-width: 765px) {
+      .ourteam .allInfo .informationabout {
+        flex-wrap: wrap; } }
+    .ourteam .allInfo .informationabout div {
+      display: flex; }
+      @media screen and (max-width: 765px) {
+        .ourteam .allInfo .informationabout div {
+          margin: 10px 0; } }
+      .ourteam .allInfo .informationabout div img {
+        height: 85px;
+        width: 85px; }
+      .ourteam .allInfo .informationabout div div {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px; }
+        .ourteam .allInfo .informationabout div div h4 {
+          font-family: "Montserrat", sans-serif;
+          font-weight: 700;
+          font-size: 20px;
+          color: #314a5b; }
+        .ourteam .allInfo .informationabout div div .redtext {
+          color: #fa5c65; }
+        .ourteam .allInfo .informationabout div div p {
+          color: #9aa0ab;
+          font-size: 13px;
+          padding: 5px 0; }
+  .ourteam .allInfo .more {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px 40px 0; }
+    @media screen and (max-width: 765px) {
+      .ourteam .allInfo .more {
+        justify-content: center; } }
+    .ourteam .allInfo .more a {
+      text-decoration: none;
+      color: #fa5c65; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 180px;
+  padding: 30px 0 10px;
+  font-size: 15px;
+  border-top: 1px solid #a6acb5; }
+  @media screen and (max-width: 965px) {
+    .footer {
+      margin: 5px 100px; } }
+  @media screen and (max-width: 765px) {
+    .footer {
+      margin: 5px 30px; } }
+  @media screen and (max-width: 648px) {
+    .footer {
+      flex-direction: column;
+      justify-content: flex-end;
+      font-size: 12px; } }
+  .footer .icons a {
+    padding: 10px;
+    cursor: pointer; }
+  .footer .infiaboutme {
+    color: #a6acb5;
+    font-family: "Open Sans", sans-serif; }
